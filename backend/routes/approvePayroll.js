@@ -16,5 +16,5 @@ router.put('/:id', async (req, res) => {
         res.status(400).json({ message: 'Error approving payroll entry', error: error.message });
     }
 });
-//adding comment on on some ting
+//adding comment on on some ting daoa
 export default router;
